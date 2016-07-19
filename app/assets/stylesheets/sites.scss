@@ -1,0 +1,23 @@
+// Place all the styles related to the Sites controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+mac-view {
+  background-image: url("/images/macbook.png");
+  position: absolute;
+  width: 800px;
+  height: 400px;
+}
+
+
+.video-container iframe {
+  position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
