@@ -1,9 +1,10 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'devise'
 
 gem 'flexslider'
 
+gem 'unirest', '~> 1.1', '>= 1.1.2'
 
 gem 'simple_form'
 

@@ -260,11 +260,21 @@
             <div class="collapsible-body">
                 <!-- <input id="search"> <i class="material-icons">search</i> -->
                 <div id="search-bar">
+
+                  <%= form_tag "/result", method: :post do %>
+                      <%= label_tag %>
+                      <%= text_field_tag(:search) %>
+                      <!-- <%= submit_tag("Search",:class=>"btn")%> -->
+                  <% end  %>
+
+                </div>
                     <!-- search box input -->
-                    <input type="text" id="search" name="search" placeholder="search all domains" autocomplete="off" autofocus autocapitalize="off" autocorrect="off">
+                    <!-- <input type="text" id="search" name="search" placeholder="search all domains" autocomplete="off" autofocus autocapitalize="off" autocorrect="off"> -->
 
                     <!-- search results div, which will be populated -->
-                    <div id="results"></div>
+                    <div id="results">
+                      <h6> Showing Search Results for: <%= params[:search] %> </h6>
+                        <div> <%= @searchResults.inspect %> </div>
                 </div>
             </div>
         </li>
