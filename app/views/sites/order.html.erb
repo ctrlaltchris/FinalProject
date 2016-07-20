@@ -3,18 +3,17 @@
 <h5 class="center-align">Launch your digital presence</h5>
 
 <!-- Modal contents  -->
-<div id="modal1" class="modal">
+<div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
         <div class="video-container activator">
-            <iframe src="http://demo.theme.co/integrity-1/" width="600" height="600"></iframe>
+            <iframe src="http://andrew.spcagent.io/" width="600" height="600"></iframe>
         </div>
     </div>
     <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">ORDER</a>
     </div>
 </div>
 
-<button data-target="modal1" id='test' class="btn modal-trigger">Modal</button>
 
 
 
@@ -32,7 +31,7 @@
         <div class="collapsible-body ">
             <div class="row">
 
-                <div class="col s4">
+                <div class="col s4"  data-target="modal1">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
                             <div class="image-container activator"></div>
@@ -44,7 +43,7 @@
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a href="#">VIEW LIVE</a>
+                                  <a href="#">VIEW LIVE</a>
                                 </div>
                                 <div class="col s6 right-align">
                                     <a href="#">USE TEMPLATE</a>
@@ -277,7 +276,7 @@
                     <!-- search results div, which will be populated -->
                     <div id="results">
                       <h6> Showing Search Results for: <%= params[:search] %> </h6>
-                        <div> <%= @response['domain'] %> </div>
+
                 </div>
             </div>
         </li>

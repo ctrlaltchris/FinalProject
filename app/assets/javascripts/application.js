@@ -13,10 +13,5 @@
 // = require jquery
 // = require jquery_ujs
 // = require turbolinks
+// =require sites
 // = require_tree .
-
-console.log('loaded biatch');
-
-$('.modal-trigger').on('click', function(){
-  console.log('clicked something bitch')
-})
