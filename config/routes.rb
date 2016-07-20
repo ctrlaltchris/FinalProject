@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   post '/result' => 'sites#order'
 
-
+  get '/api'=> 'sites#api'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
