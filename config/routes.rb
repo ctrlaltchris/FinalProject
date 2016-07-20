@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get '/api'=> 'sites#api'
 
+  get '/order' => 'sites#order'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
