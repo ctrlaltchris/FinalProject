@@ -1,10 +1,9 @@
+console.log('im loading bitch')
+
 $(document).ready(function(){
  $('.collapsible').collapsible({
    accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
  });
-
- // $('.modal-trigger').leanModal();
-
 
 $('.agentsite').click(function({
       console.log("Click listener working")
@@ -13,3 +12,7 @@ $('.agentsite').click(function({
 
 
 });
+
+$('#test').on('click', function(){
+  console.log('clicked something ')
+})

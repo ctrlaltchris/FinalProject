@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   post '/result' => 'sites#order'
 
 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
@@ -18,6 +19,7 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
     resources :sites
+    resources :summarys
 
   # Example resource route with options:
   #   resources :products do

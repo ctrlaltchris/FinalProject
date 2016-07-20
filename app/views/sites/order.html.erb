@@ -6,17 +6,20 @@
 <div id="modal1" class="modal">
     <div class="modal-content">
         <div class="video-container activator">
-            <iframe src="http://andrew.spcagent.io/" width="600" height="600"></iframe>
+            <iframe src="http://demo.theme.co/integrity-1/" width="600" height="600"></iframe>
         </div>
-        Test
     </div>
     <div class="modal-footer">
         <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
 </div>
 
-<h6>
-    Commence your customisation journey with a quick and easy four step approach</h6>
+<button data-target="modal1" id='test' class="btn modal-trigger">Modal</button>
+
+
+
+
+<h6> Commence your customisation journey with a quick and easy four step approach</h6>
 
 <ul class="collapsible popout" data-collapsible="accordion">
     <li>
@@ -264,7 +267,7 @@
                   <%= form_tag "/result", method: :post do %>
                       <%= label_tag %>
                       <%= text_field_tag(:search) %>
-                      <!-- <%= submit_tag("Search",:class=>"btn")%> -->
+                      <%= submit_tag("Search",:class=>"btn")%>
                   <% end  %>
 
                 </div>
@@ -274,10 +277,10 @@
                     <!-- search results div, which will be populated -->
                     <div id="results">
                       <h6> Showing Search Results for: <%= params[:search] %> </h6>
-                        <div> <%= @searchResults.inspect %> </div>
+                        <div> <%= @response['domain'] %> </div>
                 </div>
             </div>
         </li>
     </ul>
 
-    <a class="waves-effect waves-light btn">Build Your Site</a>
+ <%= link_to 'Build Your Site', new_summary_path %>
