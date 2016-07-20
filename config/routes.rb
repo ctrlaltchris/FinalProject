@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'sites#order'
 
+  get '/users' => 'devise/registrations#new'
+
   post '/result' => 'sites#order'
 
   get '/api'=> 'sites#api'
