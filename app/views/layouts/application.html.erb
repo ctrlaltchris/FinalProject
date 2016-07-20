@@ -11,15 +11,15 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   <%= csrf_meta_tags %>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-   <script src="//cdnjs.cloudflare.com/ajax/libs/domainr-search-box/0.0.5/domainr-search-box.min.js"></script>
 
+   <script src="//cdnjs.cloudflare.com/ajax/libs/domainr-search-box/0.0.5/domainr-search-box.min.js"></script>
 
 </head>
 <body>
 
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo"><%= image_tag('logo.jpg', :class => "spclogo" ) %></a>
+      <a href="#" class="brand-logo"><%= image_tag('logo.png', :class => "spclogo" ) %></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#">Logout</a></li>
         <li><a href="#">About Us</a></li>
@@ -29,7 +29,7 @@
   </nav>
 
     <div class="container">
-<%= yield %>
+      <%= yield %>
     </div>
 
       <p class="notice"><%= notice %></p>
