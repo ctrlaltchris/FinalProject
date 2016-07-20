@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get '/users' => 'devise/registrations#new'
 
+  post '/users'=> 'summarys#new'
+
   post '/result' => 'sites#order'
 
   get '/api'=> 'sites#api'
