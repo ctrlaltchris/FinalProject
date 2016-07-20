@@ -267,8 +267,8 @@
 
                   <%= form_tag "/result", method: :post do %>
                       <%= label_tag %>
-                      <%= text_field_tag(:search) %>
-                      <%= submit_tag("Search",:class=>"btn")%>
+                      <input type="text" id="search" name="search" placeholder="search all domains" autocomplete="off" autofocus autocapitalize="off" autocorrect="off"
+  <%= text_field_tag(:search) %>
                   <% end  %>
 
                 </div>
@@ -292,15 +292,9 @@
 
 
  <div id="example">
-   <p> Domainr Search Demo</p>
 
    <!-- search box input -->
-   <input type="text" id="search" name="search" placeholder="search all domains" autocomplete="off" autofocus autocapitalize="off" autocorrect="off">
 
    <!-- search results div, which will be populated -->
-   <div id="results">
-
-   </div>
-
 
  </div>
