@@ -4,7 +4,7 @@ $(document).ready(function(){
    accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
  });
 
- $('div.s6 a1').leanModal();
+ $('div.s6.a1').leanModal();
 
 new domainr.SearchBox({
   mashapeKey: 'rZgC4DqgNbmsh9mKxshkDrGd4pdYp1W1pP6jsnopatNptaoljs',
