@@ -8,6 +8,7 @@ gem 'unirest', '~> 1.1', '>= 1.1.2'
 
 gem 'simple_form'
 
+gem 'materialize-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
