@@ -6,6 +6,9 @@ $(document).ready(function(){
 
  $('div.s6.a1').leanModal();
 
+ $('div.s6.a2').leanModal();
+
+
 new domainr.SearchBox({
   mashapeKey: 'rZgC4DqgNbmsh9mKxshkDrGd4pdYp1W1pP6jsnopatNptaoljs',
   // clientId: 'yourClientId', // or alternatively your clientId (for high-volume customers), in which case you don't need a Mashape key

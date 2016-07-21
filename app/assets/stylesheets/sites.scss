@@ -59,6 +59,11 @@ font-family: 'Fira Sans', sans-serif;
   height: 100%;
 }
 
+#modal2 {
+  width: 80%;
+  height: 100%;
+}
+
 #habla_topbar_div {
   background-color: black;
 }
@@ -82,4 +87,9 @@ font-family: 'Fira Sans', sans-serif;
 
 .actions {
   padding-bottom: 10px;
+}
+
+div.collapsible-body {
+  padding-left: 20px;
+  padding-right: 20px;
 }
