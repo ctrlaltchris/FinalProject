@@ -13,8 +13,12 @@
 // = require jquery
 // = require jquery_ujs
 // = require turbolinks
+//= require materialize-sprockets
+
+// =require index
 // =require sites
 // =require summarys
-// =require index
+
+
 
 // = require_tree .
