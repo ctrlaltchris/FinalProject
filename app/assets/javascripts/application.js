@@ -15,5 +15,6 @@
 // = require turbolinks
 // =require sites
 // =require summarys
+// =require index
 
 // = require_tree .
